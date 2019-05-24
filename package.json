@@ -1,7 +1,24 @@
 {
-  "name": "",
-  "version": "",
-  "scripts":{
-    "start":"nodemon index.js"
-  }
+  "name": "api",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.0",
+    "nodemon": "^1.19.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamaathedj/Node-App.git"
+  },
+  "author": "David kamau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamaathedj/Node-App/issues"
+  },
+  "homepage": "https://github.com/kamaathedj/Node-App#readme"
 }
