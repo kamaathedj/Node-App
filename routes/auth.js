@@ -19,7 +19,12 @@ router.post('/login',(req,res)=>{
 
 router.get('/users',(req,res)=>{
     var users =userData.fetchUsers();
-   res.json(users);
+    // res.sendStatus(200)
+    
+   var k=res.status(200).json(users);
+   console.log(res.sendDate);
+//    console.log(k);
+   
 });
 
 // secret part in the app 🥠🥟🤣
